@@ -2,8 +2,7 @@
   width: 100%;
   background-image: url(../images/webpage-background.jpg);
 }
-#navigation {
-  width: 100%;
+nav{
   background-color: black;
 }
 h1 {
