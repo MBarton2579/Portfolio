@@ -26,7 +26,8 @@ h1 {
     color: white;
     background-color: black;
   }
-  header.primary {
+  header.primary:before {
+    content: "";
     background: url(../images/webpage-header.jpg);
     background-size: cover;
     position: absolute;
@@ -36,4 +37,8 @@ h1 {
     width: 100%;
     display: block;
     opacity: 0.5;
+  }
+  header.primary h1 {
+    position: relative;
+    text-decoration: none;
   }
