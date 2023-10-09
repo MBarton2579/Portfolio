@@ -3,7 +3,7 @@ body{
 }
 .hero{
   background-color: aqua;
-  background-image: url(../images/webpage-background.jpg);
+  background-image: url(/images/webpage-background.jpg);
 }
 h1 {
     color: blue;
