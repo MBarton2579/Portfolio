@@ -1,6 +1,10 @@
 body{
   margin: 0;
 }
+.hero{
+  background-color: aqua;
+  background-image: url(../images/webpage-background.jpg);
+}
 h1 {
     color: blue;
   }
