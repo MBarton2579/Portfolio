@@ -1,9 +1,5 @@
-#bannerimage {
-  width: 100%;
-  background-image: url(../images/webpage-background.jpg);
-}
-nav{
-  background-color: black;
+body{
+  margin: 0;
 }
 h1 {
     color: blue;
