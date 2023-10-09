@@ -1,17 +1,9 @@
-header.primary {
-  content: "";
-  background: url(../images/webpage-header.jpg);
-  background-size: cover;
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
+#bannerimage {
   width: 100%;
-  display: block;
-}
-header.primary h1 {
-  position: relative;
-  text-decoration: none;
+  background-image: url(../images/webpage-header.jpg);
+  height: 405px;
+  background-color: purple;
+  background-position: center;
 }
 h1 {
     color: blue;
