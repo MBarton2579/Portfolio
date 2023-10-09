@@ -1,3 +1,18 @@
+header.primary {
+  content: "";
+  background: url(../images/webpage-header.jpg);
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+header.primary h1 {
+  position: relative;
+  text-decoration: none;
+}
 h1 {
     color: blue;
   }
@@ -26,19 +41,4 @@ h1 {
     color: white;
     background-color: black;
   }
-  header.primary {
-    content: "";
-    background: url(../images/webpage-header.jpg);
-    background-size: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    display: block;
-    opacity: 0.5;
-  }
-  header.primary h1 {
-    position: relative;
-    text-decoration: none;
-  }
+ 
