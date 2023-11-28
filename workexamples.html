@@ -58,21 +58,8 @@
         <div id="Database" class="tabcontent">
               <h2>Database Project 1</h2>
               <p>The following is a PL/SQL Assignment. In this assignment, I created an Employee Salary Table and Triggers upon Updating and Deleting on the table.</p>
-
-              <p>CREATETABLESalUpdates( <br>
-                  SSNchar(9); 
-                  newSalarynumber; 
-                  oldSalarynumber; 
-                  todayDatedate; ); 
-
-                  CREATEORREPLACETRIGGER empSalUpdated 
-                  AFTERUPDATEONemployee 
-                  FOREACHROW DECLARE tDatedate; 
-                  BEGIN 
-                  tDate:=SYSDATE; 
-                  INSERTINTO SalUpdates VALUES(:new.SSN, :new.salary, :old.salary, tdate); 
-                  DBMS_OUTPUT.PUT_LINE('UpdaterecordedtoSALUPDATESTable'); 
-                  END;</p>
+              <img src="programming-2/DatabaseExample1.png">
+              <hr>
 
               <h2>Database Project 2</h2>
               <p></p>
@@ -82,6 +69,8 @@
               <h2>Programming Project 1</h2>
               <p>I created a basic Sum Calculator. It calculates the sum of 1 through a prompted top number. Check it out.</p>
               <a href="programming-1/Sum Calculator.html">Sum Calculator</a>
+              <hr>
+              
               <h2>Programming Project 2</h2>
               <p></p>
         </div>
