@@ -1,0 +1,25 @@
+<body>
+    <main>
+        <h1>Sum Calculator</h1>
+        <script>
+            "use strict";
+            
+            
+            let top_number = parseInt(prompt("Enter top number to sum"));
+            do{if (typeof top_number === 'string' || top_number < 1 || top_number > 100){
+                       alert("This is not a valid entry"); 
+                       top_number = parseInt(prompt("Enter top number to sum"));};}
+            while(typeof top_number === 'string' || top_number < 1 || top_number > 100);
+            
+            let sum = 0;
+            
+
+            for(let counter = 1; counter < top_number + 1; counter++){
+                    sum += counter};
+            alert("Sum of the numbers from 1 " + "through " + top_number + " is " + sum);
+
+
+            
+        </script>    
+    </main>
+</body>
